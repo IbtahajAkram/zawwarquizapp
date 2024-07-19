@@ -194,13 +194,3 @@ button {
 
 }
 
-.timer b:hover {
-  box-shadow: 0 4px 15px rgba(83, 82, 82, 0.1);
-  font-size: 1.0rem;
-  font-weight: bold;
-  color: #1e90ff;
-  background: #ffffff;
-  border-radius: 8px;
-  padding: 10px 20px;
-  width: 24%;
-}
