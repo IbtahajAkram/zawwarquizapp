@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  size-adjust: fixed;
+}
+
+
+
+
+.App-header {
+  background-color: #1e90ff;
+  padding: 22px;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.quiz {
+  padding: 50px;
+
+}
+
+.question-section {
+  margin: 20px 0;
+}
+
+.question-text {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 35px;
+}
+
+.answer-section {
+  margin: 19px 25px;
+}
+
+.answer-section button {
+  background: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin: 5px;
+  padding: 10px 20px;
+  transition: background 0.3s ease;
+}
+
+button {
+  background: #1e90ff;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.0rem;
+  margin: 3px;
+  padding: 13px 35px;
+  transition: background 0.3s ease;
+}
+
+.answer-section button:hover {
+  color: #29a6ff;
+  background: #fff;
+  border: #1e90ff 1px solid;
+}
+
+.answer-section button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(65, 139, 248, 0.5);
+  background-color: white;
+  color: #1e90ff;
+
+}
+
+.score-section {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -13px;
+  height: 25vh;
+  width: 66vh;
+  padding: 28px;
+  color: #1e90ff;
+  margin-left: 19px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.quiz,
+.question-section,
+.score-section {
+  animation: fadeIn 1.6s ease;
+}
+
+#button {
+  background: linear-gradient(90deg, #1e90ff, #00bfff);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 33px;
+  margin-bottom: -12px;
+}
+
+#button:hover {
+  background: linear-gradient(90deg, #00bfff, #1e90ff);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+#buttonBack {
+  background: linear-gradient(90deg, #1e90ff, #00bfff);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-top: 8px;
+  margin-bottom: -12px;
+  margin-left: 29px;
+}
+
+#buttonBack:hover {
+  background: linear-gradient(90deg, #00bfff, #1e90ff);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.timer {
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #1e90ff;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 28%;
+  margin-top: -72px;
+  float: right;
+  margin-right: -35px;
+
+  /* box-shadow: 0 4px 15px rgba(0, 106, 255, 0.1); */
+}
+
+.timer b {
+  color: #1e90ff;
+
+}
+
+.timer b:hover {
+  box-shadow: 0 4px 15px rgba(83, 82, 82, 0.1);
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #1e90ff;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 24%;
+}
