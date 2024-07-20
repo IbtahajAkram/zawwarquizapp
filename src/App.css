@@ -209,7 +209,7 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 98.7%;
+    width: 96.2%;
     margin-left: -1;
     margin-right: 1;
     border-radius: 15px;
@@ -276,7 +276,7 @@ button {
   font-weight: bold;
   margin-top: 13px;
   height: 22vh;
-  width: 32vh;
+  width: 27vh;
   padding: 15px;
   color: #1e90ff;
     align-item:center;
