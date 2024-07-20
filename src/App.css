@@ -281,10 +281,10 @@ button {
   font-weight: bold;
   margin-top: 13px;
   height: 22vh;
-  width: 28vh;
-  padding: 28px;
+  width: 30vh;
+  padding: 20px;
   color: #1e90ff;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 }
