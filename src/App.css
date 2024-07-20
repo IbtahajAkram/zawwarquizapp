@@ -12,7 +12,6 @@ body {
   align-items: center;
   height: 100vh;
   color: #333;
-   margin-left: -7%;
 }
 
 .App {
@@ -21,9 +20,9 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 95%;
+  width: 100%;
   max-width: 800px;
-  margin: 5%;
+  margin: 20px;
   size-adjust: fixed;
 }
 
@@ -40,7 +39,6 @@ body {
 
 .quiz {
   padding: 50px;
-
 
 }
 
@@ -186,7 +184,7 @@ button {
   width: 28%;
   margin-top: -72px;
   float: right;
-  margin-right: -45px;
+  margin-right: -35px;
 
   /* box-shadow: 0 4px 15px rgba(0, 106, 255, 0.1); */
 }
@@ -196,3 +194,95 @@ button {
 
 }
 
+.timer b:hover {
+  box-shadow: 0 4px 15px rgba(83, 82, 82, 0.1);
+  font-size: 1.0rem;
+  font-weight: bold;
+  color: #1e90ff;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 24%;
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 90%;
+    margin-left: 3;
+    margin-right: 3;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .App-header {
+    font-size: 1.5rem;
+    padding: 18px;
+  }
+
+  .quiz {
+    padding: 20px;
+  }
+
+  .question-text {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+
+  .answer-section {
+    margin: 10px 15px;
+  }
+
+  .answer-section button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .score-section {
+    font-size: 1.5rem;
+    width: 100%;
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  .timer {
+    width: 100%;
+    margin-right: 0;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+  }
+  #buttonBack {
+    background: linear-gradient(90deg, #1e90ff, #00bfff);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 12px;
+    /* margin-bottom: -32px; */
+    margin-left: 15px;
+  }
+  .score-section {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 13px;
+  height: 22vh;
+  width: 26vh;
+  padding: 28px;
+  color: #1e90ff;
+  margin-left: 19px;
+  margin-right: 19px;
+}
+}
