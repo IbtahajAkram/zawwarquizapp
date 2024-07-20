@@ -209,9 +209,9 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 77.8%;
+    width: 76.6%;
     margin-left: 1;
-    margin-right: 3;
+    margin-right: 6;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -286,6 +286,6 @@ button {
   color: #1e90ff;
   align-item: center;
   margin-left: 2px;
-  margin-right: 2px;
+  margin-right: 5px;
 }
 }
