@@ -245,10 +245,10 @@ button {
   }
 
   .score-section {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     width: 78.1%;
     padding: 5px;
-    margin-left: -2px;
+    margin-left: 5px;
   }
 
   .timer {
@@ -277,15 +277,15 @@ button {
     margin-left: 25px;
   }
   .score-section {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: bold;
   margin-top: 13px;
   height: 20vh;
   width: 76%;
-  padding: 10px;
+  padding-left: 8px;
   color: #1e90ff;
   align-item: center;
-  margin-left: 1px;
+  margin-left: 5px;
   margin-right: 1px;
 }
 }
