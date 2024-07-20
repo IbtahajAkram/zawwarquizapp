@@ -12,6 +12,7 @@ body {
   align-items: center;
   height: 100vh;
   color: #333;
+   margin-left: -7%;
 }
 
 .App {
@@ -39,6 +40,7 @@ body {
 
 .quiz {
   padding: 50px;
+
 
 }
 
@@ -184,7 +186,7 @@ button {
   width: 28%;
   margin-top: -72px;
   float: right;
-  margin-right: -35px;
+  margin-right: -45px;
 
   /* box-shadow: 0 4px 15px rgba(0, 106, 255, 0.1); */
 }
