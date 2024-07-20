@@ -23,7 +23,8 @@ body {
   overflow: hidden;
   width: 95%;
   max-width: 800px;
-  margin: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   size-adjust: fixed;
 }
 
