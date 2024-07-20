@@ -93,7 +93,7 @@ if(timeleft === 0){
             Your Score is {score} Out of {questions.length}
             <br />
             <br />
-            <button id='buttonBack' onClick={() => window.location = 'http://localhost:3000/'}>Back</button>
+            <button id='buttonBack' onClick={() => window.location = 'https://zawwarquizapp.vercel.app/'}>Back</button>
           </div>
         ) : (
           
