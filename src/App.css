@@ -20,9 +20,9 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 100%;
+  width: 98%;
   max-width: 800px;
-  margin: 20px;
+  margin: 15px;
   size-adjust: fixed;
 
 
