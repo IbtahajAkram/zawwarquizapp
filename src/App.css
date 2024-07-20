@@ -24,6 +24,8 @@ body {
   max-width: 800px;
   margin: 20px;
   size-adjust: fixed;
+    transform: scale(1.1);
+
 }
 
 
