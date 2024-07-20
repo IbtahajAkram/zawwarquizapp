@@ -273,9 +273,11 @@ button {
     border-radius: 12px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 15px;
+    margin-top: 10px;
     /* margin-bottom: -32px; */
     margin-left: 25px;
+    z-index: 2;
+
   }
   .score-section {
   font-size: 25px;
