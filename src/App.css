@@ -209,7 +209,7 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 88%;
+    width: 77%;
     margin-left: -1;
     margin-right: 1;
     border-radius: 15px;
@@ -246,7 +246,7 @@ button {
 
   .score-section {
     font-size: 1.5rem;
-    width: 95%;
+    width: 80%;
     padding: 20px;
     margin-left: 0;
   }
@@ -281,7 +281,7 @@ button {
   font-weight: bold;
   margin-top: 13px;
   height: 22vh;
-  width: 88%;
+  width: 80%;
   padding: 15px;
   color: #1e90ff;
   align-item: center;
