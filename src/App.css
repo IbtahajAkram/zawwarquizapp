@@ -272,12 +272,12 @@ button {
     border-radius: 12px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: 7px;
+    margin-top: 15px;
     /* margin-bottom: -32px; */
     margin-left: 25px;
   }
   .score-section {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   margin-top: 13px;
   height: 20vh;
@@ -285,7 +285,7 @@ button {
   padding: 10px;
   color: #1e90ff;
   align-item: center;
-  margin-left: 8px;
+  margin-left: 1px;
   margin-right: 1px;
 }
 }
