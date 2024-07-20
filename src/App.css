@@ -209,9 +209,9 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 98%;
+    width: 100%;
     margin-left: 1;
-    margin-right: 3;
+    margin-right: 1;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -244,12 +244,7 @@ button {
     padding: 10px 20px;
   }
 
-  .score-section {
-    font-size: 1.5rem;
-    width: 97%;
-    padding: 15px;
-    margin-left: 0;
-  }
+
 
   .timer {
     width: 100%;
@@ -281,10 +276,10 @@ button {
   font-weight: bold;
   margin-top: 13px;
   height: 22vh;
-  width: 30vh;
-  padding: 20px;
+  width: 32vh;
+  padding: 15px;
   color: #1e90ff;
-  margin-left: 6px;
+  margin-left: -6px;
   margin-right: 6px;
 }
 }
