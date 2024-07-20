@@ -209,9 +209,9 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 75%;
-    margin-left: 0;
-    margin-right: 5;
+    width: 78%;
+    margin-left: 2;
+    margin-right: 2;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -272,7 +272,7 @@ button {
     border-radius: 12px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: -20px;
+    margin-top: -3px;
     /* margin-bottom: -32px; */
     margin-left: 20px;
   }
@@ -280,12 +280,12 @@ button {
   font-size: 25px;
   font-weight: bold;
   margin-top: 13px;
-  height: 22vh;
-  width: 80%;
+  height: 20vh;
+  width: 82%;
   padding: 7px;
   color: #1e90ff;
   align-item: center;
   margin-left: 6px;
-  margin-right: 6px;
+  margin-right: 1px;
 }
 }
