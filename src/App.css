@@ -24,7 +24,7 @@ body {
   max-width: 800px;
   margin: 20px;
   size-adjust: fixed;
-    transform: scale(1);
+
 
 }
 
@@ -209,7 +209,7 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 97%;
+    width: 99%;
     margin-left: 3;
     margin-right: 3;
     border-radius: 15px;
@@ -247,7 +247,7 @@ button {
   .score-section {
     font-size: 1.5rem;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     margin-left: 0;
   }
 
@@ -272,7 +272,7 @@ button {
     border-radius: 12px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    margin-top: -10px;
+    margin-top: -20px;
     /* margin-bottom: -32px; */
     margin-left: 15px;
   }
@@ -281,7 +281,7 @@ button {
   font-weight: bold;
   margin-top: 13px;
   height: 22vh;
-  width: 26vh;
+  width: 31vh;
   padding: 28px;
   color: #1e90ff;
   margin-left: 19px;
