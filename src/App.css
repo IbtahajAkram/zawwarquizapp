@@ -209,7 +209,7 @@ button {
 
 @media (max-width: 768px) {
   .App {
-    width: 80%;
+    width: 90%;
     margin-left: 1;
     margin-right: 1;
     overflow: hidden;
@@ -283,7 +283,7 @@ button {
    overflow: hidden;
   margin-top: 13px;
   height: 20vh;
-  width: 82%;
+  width: 90%;
   padding-left: 13px;
   color: #1e90ff;
   align-item: center;
